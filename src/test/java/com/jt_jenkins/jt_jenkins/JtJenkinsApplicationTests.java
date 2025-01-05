@@ -10,7 +10,7 @@ class JtJenkinsApplicationTests {
 	static Logger logger = LoggerFactory.getLogger(JtJenkinsApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("Test case executing...");
 		assertEquals(true,true);
 	}
